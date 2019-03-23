@@ -1,0 +1,46 @@
+body {
+    /* background-color: red; */
+}
+nav{
+    background-color: #C12127;
+    color: rgba(255, 2555, 255, 0.8);
+    padding-top: 15px;
+    height: 100px;
+}
+nav a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+header{
+    background-color: rgb(32, 101, 136);
+    max-width: 100%;
+}
+.search-bar{
+}
+.search-bar input{
+    background-color: rgb(31, 82, 111);
+    width: 450px;
+}
+.search-bar img{
+    height: 40px;
+}
+.landing-logo{
+    background-image: url("../images/city-scape.svg");
+    background-repeat: no-repeat;
+}
+.top-left{
+    float: left;
+}
+.top-links{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 20px 0 0;
+    list-style: none;
+}
+.top-links ul, .top-links li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
